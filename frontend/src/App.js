@@ -20,6 +20,9 @@ import ProductEditScreen from './screens/ProductEditScreen';
 import OrderListScreen from './screens/OrderListScreen';
 import UserListScreen from './screens/UserListScreen';
 import UserEditScreen from './screens/UserEditScreen';
+import { faMap, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter, faFacebook, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   const cart = useSelector((state) => state.cart);
@@ -122,7 +125,59 @@ function App() {
           ></AdminRoute>
           <Route path="/" component={HomeScreen} exact></Route>
         </main>
-        <footer className="row center">Tous droits réservés</footer>
+        <footer class="footer">
+        
+        <div class="footer-left">
+
+          <f3>PizzaLand<span>Info</span></f3>
+
+          <p class="footer-links">
+                      "Pour votre santé, mangez au moins 5 fruits et légumes par jour."
+            <a href="https://www.mangerbouger.fr/" target="_blank">manger-bouger.fr</a>
+          </p>
+
+          <p class="footer-company-name">Elsa Ruelle & Camille Krusi &copy; 2020</p>
+        </div>
+
+        <div class="footer-center">
+
+          <div>
+            
+            <i class="center-icons"> <FontAwesomeIcon icon={faMap} /> </i>
+            <p><span>Centre Bonlieu, 1 Rue Jean Jaurès</span> Annecy, France</p>
+          </div>
+
+          <div>
+            <i class="center-icons"> <FontAwesomeIcon icon={faPhone} /> </i>
+            <p>04 91 81 28 67</p>
+          </div>
+
+          <div>
+            <i class="center-icons"> <FontAwesomeIcon icon={faEnvelope} /> </i>
+            <p><a >ruellekrusi@gmail.com</a></p>
+          </div>
+
+        </div>
+
+        <div class="footer-right">
+
+          <p class="footer-company-about">
+            <span>Qui sommes nous ?</span>
+            Deux étudiantes en Informatique et Données d'Usages, très fortes en JavaScript et en Full Stack &amp; CEOs, PizzaLand.
+          </p>
+                  
+          <div class="footer-icons">
+
+            <a class="facebook" href="https://fr-fr.facebook.com/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
+            <a class="twitter" href="https://twitter.com/HarrESgirl1D/status/1338947880103632897" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
+            <a class="github" href="https://github.com/Elsa-R/Pizzeria" target="_blank"><FontAwesomeIcon icon={faGithub} /></a> 
+            <a class="linkedin" href="https://www.linkedin.com/in/elsa-ruelle-53549b1ba/" href="https://www.linkedin.com/in/camille-kr%C3%BCsi-267969193/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+
+          </div>
+
+        </div>
+
+      </footer>
       </div>
     </BrowserRouter>
   );

@@ -48,7 +48,6 @@ const data = {
       numReviews: 17,
       description: 'Crème fraîche légère, mozzarella, jambon cru, fromage à raclette et champignons frais',
     },
-      
   ],
 };
 export default data;

@@ -19,7 +19,7 @@ productRouter.get(
   expressAsyncHandler(async (req, res) => {
     // Si je veux mettre à jour ma liste de pizzas: faut les supprimer et les remettre dedans 
     // http://localhost:5000/api/products/seed
-    //await Product.remove({});
+    await Product.remove({});
     const createdProducts = await Product.insertMany(data.products);
     res.send({ createdProducts });
   })

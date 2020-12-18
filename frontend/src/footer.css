@@ -1,0 +1,177 @@
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+	display: inline-block;
+	margin-top:15px;
+	vertical-align: top;
+	
+}
+
+.footer .footer-left{
+	width: 40%;
+}
+
+.footer f3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer f3 span{
+	color:  #ECB600;
+}
+
+
+.footer .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer .footer-center{
+	width: 35%;
+}
+
+.footer .footer-center .center-icons{
+	background-color: #5E0624;
+	color: #ffffff;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 38px; /* pour centré les logos dans les cercles */
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer .footer-center p a{
+	color:  #ECB600;
+	text-decoration: none;;
+}
+
+.footer .footer-right{
+	width: 20%;
+}
+
+.footer .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer .footer-icons{
+	margin-top: 25px;
+	padding-bottom: 10px;
+}
+
+.footer .footer-icons a{
+    background-color:  #821238;
+    color:#818a91;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+}
+
+.footer .footer-icons a:active,
+.footer .footer-icons a:focus,
+.footer .footer-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.footer .footer-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.footer .footer-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.footer .footer-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.footer .footer-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.footer .footer-icons a.github:hover
+{
+  background-color: #000
+}
+
+
+@media (max-width: 880px) {
+
+	.footer{
+		font: bold 14px sans-serif;
+	
+	}
+
+	.footer .footer-left,
+	.footer .footer-center,
+	.footer .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer .footer-center .center-icons{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+
+}
