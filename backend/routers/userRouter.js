@@ -12,7 +12,7 @@ userRouter.get(
   expressAsyncHandler(async (req, res) => {
     // Si je veux mettre à jour ma liste d'users: faut les supprimer et les remettre dedans : 
     // http://localhost:5000/api/users/seed
-    await User.remove({});
+    //await User.remove({});
     const createdUsers = await User.insertMany(data.users);
     res.send({ createdUsers });
   })
