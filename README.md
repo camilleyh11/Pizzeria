@@ -2,7 +2,7 @@
 
 Site web permettant de commander des pizzas.
 
-Pour lancer l'application localement :
+Pour lancer l'application localement : <br/>
 -télécharger le projet
 -faire un npm install dans la racine du projet
 -faire un npm install le frontend
